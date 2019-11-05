@@ -1,0 +1,10 @@
+C:\Users\group-bbv182\source\repos\Static1\Static1\obj\Debug\Static1.csprojAssemblyReference.cache
+C:\Users\group-bbv182\source\repos\Static1\Static1\obj\Debug\Static1.Form1.resources
+C:\Users\group-bbv182\source\repos\Static1\Static1\obj\Debug\Static1.Properties.Resources.resources
+C:\Users\group-bbv182\source\repos\Static1\Static1\obj\Debug\Static1.csproj.GenerateResource.cache
+C:\Users\group-bbv182\source\repos\Static1\Static1\obj\Debug\Static1.csproj.CoreCompileInputs.cache
+C:\Users\group-bbv182\source\repos\Static1\Static1\bin\Debug\Static1.exe.config
+C:\Users\group-bbv182\source\repos\Static1\Static1\bin\Debug\Static1.exe
+C:\Users\group-bbv182\source\repos\Static1\Static1\bin\Debug\Static1.pdb
+C:\Users\group-bbv182\source\repos\Static1\Static1\obj\Debug\Static1.exe
+C:\Users\group-bbv182\source\repos\Static1\Static1\obj\Debug\Static1.pdb
