@@ -27,8 +27,8 @@ namespace Static2
             label.Visible = true;
             label.Size = new Size(100, 100);
             label.TextAlign = ContentAlignment.MiddleCenter;
-            label.Left = 10;
-            label.Top = 10;
+            label.Left = ClientSize.Width / 2;
+            label.Top = ClientSize.Height / 2;
             
 
         }
@@ -40,9 +40,17 @@ namespace Static2
 
         private void Form1_MouseMove(object sender, MouseEventArgs e)
         {
-            Random rnd = new Random();
-            if( Cursor.Position.X < label.Location.X - 10 && label.Location.X > 20)
-              label.Location = new Point(label.Location.X + rnd.Next(-10, 10), label.Location.X + rnd.Next(-10, 10);
+            if ((e.X > label.Location.X - 20 && e.X < label.Location.X + label.Width + 20) && (e.Y > label.Location.Y -20 && e.Y < label.Location.Y + label.Height - 20))
+            {
+                if (e.X > label.Location.X - 20 && e.X < label.Location.X)
+                    label.Left += 10;
+                else if (e.X < label.Location.X + label.Width + 20)
+                    label.Left -= 10;
+                if (e.Y < label.Location.Y - 20 && e.Y < label.Location.Y)
+                    label.Top += 10;
+                else if (e.Y < label.Location.Y + label.Height && e.Y < label.Location.Y + label.Height + 20)
+                    label.Top -= 10;
+
             }
 
         }
